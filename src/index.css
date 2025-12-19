@@ -15,12 +15,19 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  position: sticky;
+  top: 0;
+  background: #0f0f0f;
+  z-index: 1000;
 }
 
-.navbar a {
-  margin-left: 16px;
+.navbar nav a {
   color: white;
   text-decoration: none;
+  margin-left: 20px;
+}
+.navbar nav a.active {
+  border-bottom: 2px solid #fff;
 }
 
 /* Hero */
