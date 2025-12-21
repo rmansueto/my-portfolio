@@ -1,9 +1,9 @@
-import { resume } from "react-dom/server";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import profileImg from "../assets/profile.jpg";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-    const text = "This is my portfolio website, showcasing my projects and skills as a developer.";
+    const text = "This is my portfolio website, showcasing my projects and skills.";
     const [displayedText, setDisplayedText] = useState("");
     const [isDeleting, setIsDeleting] = useState(false);
     const [index, setIndex] = useState(0);
@@ -36,8 +36,8 @@ export default function Home() {
                     <a href="/projects" className="btn">View My Projects</a>
                 </div>
                 <div className="hero-socials">
-                    <a href="https://github.com/rmansueto" className="btn">GitHub</a>
-                    <a href="https://www.linkedin.com/in/ritter-padin/" className="btn">LinkedIn</a>
+                    <a href="https://github.com/rmansueto" className="btn"><FaGithub/></a>
+                    <a href="https://www.linkedin.com/in/ritter-padin/" className="btn"><FaLinkedin/></a>
                 </div>
             </div>
             <div className="hero-right">

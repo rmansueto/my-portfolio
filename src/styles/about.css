@@ -1,0 +1,93 @@
+.about {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 80px;
+  gap: 60px;
+}
+
+/* Left image */
+.about-left img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #a34dee;
+  box-shadow: 0 0 0 4px #a34dee;
+}
+
+/* Right content */
+.about-right h1 {
+  font-size: 2.5rem;
+  color: #a34dee;
+  margin-bottom: 24px;
+}
+
+.about-right h2 {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.about-right h3 {
+  font-size: 1rem;
+  color: #bbb;
+  margin-bottom: 16px;
+}
+
+.about-right p {
+  font-size: 0.9rem;
+  color: #ccc;
+  line-height: 1.8;
+  max-width: 520px;
+  margin-bottom: 16px;
+}
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+    gap: 32px;
+  }
+
+  .about-right p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* Tech stacks Section */
+.skills {
+  padding: 80px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 20px;
+}
+.skills-list span {
+  padding: 14px 12px;
+  border: 2px solid #a34dee;
+  border-radius: 8px;
+  color: #a34dee;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+.skills-list span:hover {
+  background-color: #a34dee;
+  color: #0b0b0b;
+  transform: scale(1.05);
+}
+.skills h2 {
+  font-size: 2rem;
+  color: #a34dee;
+  margin-bottom: 40px;
+}
+/*Tools Section */
+.skills.tools h2 {
+  color: #c084ff; 
+}
