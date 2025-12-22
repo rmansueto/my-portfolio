@@ -9,17 +9,50 @@ export default function About() {
         <div className="about-right">
           <h1>About Me</h1>
           <h2>Ritter Padin</h2>
-          <h3>Web Developer</h3>
+          {/*<h3></h3>*/}
           <p>
-            I am a passionate web developer with experience in building dynamic
-            web applications. My journey in tech started with a curiosity for
-            understanding how websites work, and it has evolved into a full-fledged
-            career.
+            I am a passionate person who loves the use of technology to solve
+            problems and create innovative solutions.
           </p>
           <p>
             I enjoy working with modern technologies and frameworks, and I am
             constantly seeking to learn and grow in this ever-changing field.
           </p>
+        </div>
+      </section>
+      <section className="timeline">
+        <div className="timeline-left">
+          <h2>Education</h2>
+          <div className="timeline-item">
+            <h3>Bachelor of Science in Information Technology</h3>
+            <h4>2nd Year</h4>
+            <p>Cebu Institute of Technology - University</p>
+            <h3>Senior High School - STEM Strand</h3>
+            <h4>2019 - 2020</h4>
+            <p>University of Cebu Main-Campus</p>
+          </div>
+        </div>
+        <div className="timeline-right">
+          <h2>Experience</h2>
+          <div className="timeline-item">
+            <h3>Payment Processing Analyst</h3>
+            <h4>June 2023 - Feb 2025</h4>
+            <p>Interactech Solutions Inc.</p>
+            <h5>Responsibilities:</h5>
+            <ul>
+              <li>Analyzed and provided insights on fraud transactions.</li>
+              <li>Processed transactions accurately and efficiently.</li>
+              <li>Prepared detailed financial reports and documentation.</li>
+            </ul>
+            <h3>Settlement Officer</h3>
+            <h4>March 2025 - Oct 2025</h4>
+            <p>PearlPay Inc.</p>
+            <h5>Responsibilities:</h5>
+            <ul>
+              <li>Managed and settled dispute transactions.</li>
+              <li>Prepared basic reports for reviewing transaction records.</li>
+            </ul>
+          </div>
         </div>
       </section>
       {/* Tech Stacks */}
@@ -53,6 +86,7 @@ export default function About() {
           <span>MS Office</span>
           <span>Power BI</span>
           <span>Google Sheets</span>
+          <span>Canva</span>
         </div>
       </section>
     </>

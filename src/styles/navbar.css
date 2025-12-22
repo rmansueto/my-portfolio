@@ -31,11 +31,11 @@
 }
 
 .navbar nav a:hover {
-  color: #fff;
+  color: #a34dee;
 }
 
 .navbar nav a.active {
-  color: #fff;
+  color: #a34dee;
 }
 
 .navbar nav a.active::after {
@@ -45,5 +45,5 @@
   left: 0;
   height: 2px;
   width: 100%;
-  background: white;
+  background: #a34dee;
 }
