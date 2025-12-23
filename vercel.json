@@ -1,8 +1,7 @@
 {
   "routes": [
     {
-      "src": "/Ritter_resume.pdf",
-      "dest": "/Ritter_resume.pdf"
+      "handle": "filesystem"
     },
     {
       "src": "/(.*)",
