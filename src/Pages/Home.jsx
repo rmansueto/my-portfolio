@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import profileImg from "../assets/profile.jpg";
+import resume from "../assets/Ritter_resume.pdf";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -32,7 +33,7 @@ export default function Home() {
                 <h2>Hi, I'm Ritter!</h2>
                 <p>{displayedText}</p>
                 <div className="hero-buttons">
-                    <a href="/Ritter_resume.pdf" className="btn primary" download>Download Resume</a>
+                    <a href={resume} className="btn primary" download>Download Resume</a>
                     <a href="/projects" className="btn">View My Projects</a>
                 </div>
                 <div className="hero-socials">
