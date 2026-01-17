@@ -65,6 +65,21 @@ export default function Projects() {
                     />
                 </div>
             </div>
+            <div className="project-section">
+                <h3>Video Projects</h3>
+                <ProjectCard
+                    title="Hanako AI Horror Shorts"
+                    description="Short-form AI horror videos created for YouTube Shorts."
+                    tag="Video Editing"
+                    youtube="https://www.youtube.com/shorts/CMNY3xHS2ik"
+                />
+                <ProjectCard
+                    title="Sleep Paralysis AI Horror Shorts"
+                    description="Short-form AI horror videos created for YouTube Shorts."
+                    tag="Video Editing"
+                    youtube="https://www.youtube.com/shorts/9DPs7rS8mpo"
+                />
+            </div>
         </section>
     );
 }
